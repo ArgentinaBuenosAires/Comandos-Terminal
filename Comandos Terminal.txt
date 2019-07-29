@@ -1,0 +1,44 @@
+ls : Mostrar archivos y carpetas donde estoy parado
+
+pwd : Donde estoy parado (ubicado)
+
+cd <nombre> : Ingresar carpeta con <nombre>
+
+Ej : cd Documents.
+Si no pongo el nombre vuelve a la raiz (usuario)
+
+mkdir <nombre> : Crear carpeta con <nombre>
+
+Ej: mkdir proyectos
+
+code . : Abrir vscode en la carpeta donde estoy parado
+
+git clone : Bajar repo
+
+git pull : Traerse los cambios
+
+git status : Estado actual de mi repo
+
+(Rojo quiere decir que esta en unstaged)
+
+git add <nombre del archivo> : Pasa ese archivo a stage,Verde.
+
+git .  (Pasa todos los archivos a stage,Verde)
+
+git commit -m "Aligato"  (-m=mensaje)
+
+git push : Sube al repo (Pasa al estado commited)
+
+
+Unica vez por repo: El email y el nombre.
+
+git config user.email "email"
+
+git config user.name "nombre"
+
+touch <nombre> : te crea un archivo dentro de esa carpeta
+
+
+Ej: 
+(touch index.html),te creo el archivo index.html
+.
